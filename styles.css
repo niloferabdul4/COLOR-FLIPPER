@@ -1,0 +1,73 @@
+
+/******************    NAVIGATION AREA    *********************/
+.nav_center{
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    box-shadow: rgba(34, 31, 31, 0.15) 2px 3px 2.6px;
+    
+}
+
+h5{
+    font-size: 18px;
+    line-height: 1px;
+}
+
+ ul li{
+
+    display:inline-block;
+    font-size: 18px;
+    line-height: 1px;
+    
+}
+
+ ul li a{
+    text-decoration: none;
+    
+}
+
+/*****************       MAIN AREA       *****************/
+
+
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+
+}
+.container span{
+    color: blue;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    line-height: 20px;
+    display:inline-block;
+
+}
+
+
+
+#btn
+{
+    color:black ;
+    background-color: white;
+    border-radius: 15px;
+    height: 40px;
+    text-size-adjust: 20px;
+    width : 90px; 
+    display:inline-block;
+    text-align:center;
+    margin: 4px;
+}
+
+
